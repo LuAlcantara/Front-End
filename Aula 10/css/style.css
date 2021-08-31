@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.conteudo{
+    width: 1120px;
+    height: 860px;
+    background-image: url(https://images.hdqwalls.com/download/8-bit-pixel-art-city-2o-1280x720.jpg);
+    background-size: 1120px 860px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+h1, h2{
+    color: blanchedalmond;
+}
+
+button{
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+}
