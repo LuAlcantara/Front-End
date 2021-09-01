@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.caixas{
+    border: solid 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.caixinhas{
+    border: solid 5px;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+#absolute{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -100px;
+}
