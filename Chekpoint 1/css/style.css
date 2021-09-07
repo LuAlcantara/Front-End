@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Code+Pro:wght@500&family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+
+body {
+    background-image: url(../img/sp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: double 5px white;
+    border-radius: 10px;
+    width: 1280px;
+}
+
+.cabecalho {
+    text-align: center;
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Courgette', cursive;
+    padding: 10px 20px;
+    
+}
+
+.principal {
+    text-align: center;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.video {
+    display: flex;
+}
+
+h2, ul {
+    color: white;
+}
+
+h3 {
+    font-family: 'Courgete', cursive;
+    padding-left: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,26 +1,28 @@
-body{
-    background-color: black;
+* {
+    box-sizing: border-box;
 }
 
-.conteudo{
+body {
+    background-color: violet;
+}
+.banner {
     width: 1120px;
     height: 860px;
-    background-image: url(https://images.hdqwalls.com/download/8-bit-pixel-art-city-2o-1280x720.jpg);
+    text-align: center;
+    background-image: url(../img/city.jpeg);
     background-size: 1120px 860px;
     background-repeat: no-repeat;
     background-position: center;
-    margin: auto;
+    padding: 300px;
 }
 
-h1, h2{
-    color: blanchedalmond;
-}
-
-button{
-    padding: 20px;
-    background-color: blueviolet;
+h1, h2 {
     color: white;
-    border: none;
-    border-radius: 40px;
-    font-size: 16px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: orange;
 }
