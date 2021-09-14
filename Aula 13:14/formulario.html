@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="nome" style="display:block">Qual seu nome?</label>
+            <input type="text" id="nome" required>
+        </fieldset>
+        
+        <fieldset>
+            <div>
+                <label for="participar" style="display:block">Você pode participar?</label>
+                <input type="radio" name="participar" value="Sim" id="Sim" checked>
+                <label for="Sim">Sim, posso.</label>
+            </div>
+            <div>
+                <input type="radio" name="participar" value="Nao" id="Nao">
+                <label for="Nao">Não.</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="pessoas" style="display:block">Quantas pessoas comparecerão?</label>
+                <input type="number" id="pessoas">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>O que vai trazer?</legend>
+            <div>
+                <input type="checkbox" name="prato" id="pp">
+                <label for="pp">Prato principal</label>
+            </div>
+            <div>
+                <input type="checkbox" name="prato" id="ss">
+                <label for="ss">Salada</label>
+            </div>
+            <div>
+                <input type="checkbox" name="prato" id="sb">
+                <label for="sb">Sobremesa</label>
+            </div>
+            <div>
+                <input type="checkbox" name="prato" id="bb">
+                <label for="bb">Bebidas</label>
+            </div>
+            <div>
+                <input type="checkbox" name="prato" id="ap">
+                <label for="ap">Acompanhamentos/Aperitivos</label>
+            </div>
+            <div>
+                <label for="ot" style="display:block">Outros:</label>
+                <input type="text" name="prato" id="ot">
+            </div>
+
+            <div>
+                <label for="restricao" style="display: block;">Você tem alguma restrição alimentar?</label>
+                <input type="text" name="restricao" id="restricao">
+            </div>
+                
+            <legend>Digite seu e-mail</legend>
+            <div>
+            <label for="email" style="display: block;"></label>
+            <input type="email" name="email" id="name">
+            </div>
+
+            <fieldset>
+                <legend>Enviar formulario</legend>
+                <button type="reset">Apagar</button>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>
